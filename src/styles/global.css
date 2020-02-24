@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+}
+
+.tagline{
+    font-size: 60pt;
+    line-height: 120%;
+}
+
+.about{
+    font-size: 15pt;
+}
+
+.action{
+    letter-spacing: 1.5px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.social-media-icon{
+    margin: 0px 23px 0px 23px;
+    max-width: 30px;
+    max-height: 30px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.social-media-icon:hover{
+    transform: scale(1.3) perspective(1px);
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.partition{
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .title{
+        margin-top: 23px;
+    }
+    .tagline{
+        margin-top: 40px;
+        font-size: 40pt;
+    }
+}  
